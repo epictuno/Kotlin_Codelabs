@@ -45,7 +45,13 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    Presentation(
+                        name = "Nombre Completo",
+                        title = "Título",
+                        phoneNumber = "+928478573",
+                        email = "correo@ejemplo.com",
+                        twitterHandle = "@usuario"
+                    )
                 }
             }
         }
